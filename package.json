@@ -1,0 +1,32 @@
+{
+  "name": "pizza-man-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pizza Man Website",
+  "author": "Nicholas Diesslin",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "firebase": "^8.2.3",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.10.0",
+    "gatsby-plugin-firebase": "^0.2.0-beta.4",
+    "gatsby-plugin-google-gtag": "^2.6.0",
+    "gatsby-plugin-react-helmet": "^3.9.0",
+    "gatsby-plugin-sass": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.13.0",
+    "gatsby-transformer-sharp": "^2.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.32.4"
+  }
+}
