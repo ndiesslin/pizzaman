@@ -17,6 +17,10 @@ const performanceLinks = [
     url: "https://vimeo.com/506949177#t=18m25s",
   },
   {
+    text: "The Jason Show",
+    url: "https://www.youtube.com/watch?v=GzQZD0SmdEA",
+  },
+  {
     text: "Twin Cities Live",
     url: "https://www.twincitieslive.com/food/22265/pizza-dough-throwing/",
   },
@@ -38,7 +42,7 @@ const performanceLinks = [
 const links = [
   {
     text: "Email",
-    url: "mailto:nicholas@ndiesslin.com ",
+    url: "mailto:nicholasdiesslin@gmail.com",
   },
   {
     text: "Twitter",
@@ -116,6 +120,7 @@ const IndexPage = () => {
               <span>
                 <a
                   href={`${link.url}`}
+                  target="_blank"
                 >
                   {link.text}
                 </a>
