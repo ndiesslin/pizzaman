@@ -9,6 +9,10 @@ import PizzaManLogo from "../images/Pizza-Man-Logo.svg"
 // Performance links
 const performanceLinks = [
   {
+    text: "America's Got Talent",
+    url: "https://www.youtube.com/watch?v=a7fDGbPs0c4"
+  },
+  {
     text: "The Tonight Show Starring Jimmy Fallon",
     url: "https://www.youtube.com/watch?v=Al0ZGbHnakc",
   },
@@ -45,12 +49,20 @@ const links = [
     url: "mailto:nicholasdiesslin@gmail.com",
   },
   {
+    text: "Instagram",
+    url: "https://www.instagram.com/pizzamannickdiesslin",
+  },
+  {
     text: "Twitter",
     url: "https://twitter.com/pizzamannick",
   },
   {
     text: "Tik Tok",
     url: "https://tiktok.com/@pizzamannickdiesslin",
+  },
+  {
+    text: "YouTube",
+    url: "https://www.youtube.com/channel/UCMbhbCwfTYmdqGxWt7XnUNA"
   },
   {
     text: "Professional website",
