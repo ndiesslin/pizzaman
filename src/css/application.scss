@@ -64,3 +64,33 @@ footer {
 .margin-bottom-20 {
   margin-bottom: 20px;
 }
+
+.button {
+  border: solid 5px;
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  background: #ff67d0;
+  color: black;
+}
+
+.button:hover {
+  box-shadow: 5px 5px white;
+  transform: translate(-5px, -5px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: none;
+}
+
+.button--green {
+  background: #67ff6c;
+}
+
+ul {
+  line-height: 1.45;
+}

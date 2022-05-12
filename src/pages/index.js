@@ -13,6 +13,14 @@ const performanceLinks = [
     url: "https://www.youtube.com/watch?v=a7fDGbPs0c4"
   },
   {
+    text: "The Austin Show - Part 1 Golden Buzzer",
+    url: "https://youtu.be/qfZK5BrpjxI?t=5876",
+  },
+  {
+    text: "The Austin Show - Part 2 Finals",
+    url: "https://youtu.be/JkUnEhAP2to?t=7408",
+  },
+  {
     text: "The Tonight Show Starring Jimmy Fallon",
     url: "https://www.youtube.com/watch?v=Al0ZGbHnakc",
   },
@@ -23,6 +31,10 @@ const performanceLinks = [
   {
     text: "The Jason Show",
     url: "https://www.youtube.com/watch?v=GzQZD0SmdEA",
+  },
+  {
+    text: "The Jason Show - Second Appearance",
+    url: "https://youtu.be/As8zccUQbp4?t=773",
   },
   {
     text: "Twin Cities Live",
@@ -53,6 +65,10 @@ const links = [
     url: "https://www.instagram.com/pizzamannickdiesslin",
   },
   {
+    text: "Twitch",
+    url: "https://www.twitch.tv/pizzamannickdiesslin",
+  },
+  {
     text: "Twitter",
     url: "https://twitter.com/pizzamannick",
   },
@@ -63,6 +79,10 @@ const links = [
   {
     text: "YouTube",
     url: "https://www.youtube.com/channel/UCMbhbCwfTYmdqGxWt7XnUNA"
+  },
+  {
+    text: "SoundCloud",
+    url: "https://soundcloud.com/pizzamannick"
   },
   {
     text: "Professional website",
@@ -121,6 +141,12 @@ const IndexPage = () => {
         <h2>
           I'm Nick and I'm from the year 1991. <strong>Pizza Man</strong> brought me to the future in order to save the world but time travel fused us together and we became: <strong>Pizza Man Nick Diesslin!</strong>
         </h2>
+      </section>
+      <section>
+        <p>
+          <a href="https://www.redbubble.com/i/t-shirt/Pizza-Man-Nick-Diesslin-Pizza-Slice-by-PizzaManNick/88963887.IJ6L0" target="_blank" class="button">Buy a Pizza Man shirt</a>
+          <a href="https://divoominternational.com/PizzaMan" target="_blank" class="button button--green">Buy a pizza pixel screen</a>
+        </p>
       </section>
       <section>
         <p>
