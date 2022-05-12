@@ -92,5 +92,17 @@ footer {
 }
 
 ul {
-  line-height: 1.45;
+  line-height: 2;
+}
+
+.ul--contact {
+  list-style: none;
+  padding-left: 25px;
+}
+
+.svg-inline--fa {
+  width: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
 }

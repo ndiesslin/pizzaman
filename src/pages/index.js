@@ -6,6 +6,26 @@ import "../css/application.scss"
 import PizzaMan from "../images/Pizza-Man-Short.gif"
 import PizzaManLogo from "../images/Pizza-Man-Logo.svg"
 
+// Icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faEnvelope,
+  faComputer
+} from "@fortawesome/free-solid-svg-icons"
+
+import {
+  faTiktok,
+  faInstagram,
+  faTwitch,
+  faTwitter,
+  faYoutube,
+  faSoundcloud
+} from "@fortawesome/free-brands-svg-icons"
+
+import { config } from '@fortawesome/fontawesome-svg-core'
+// Disable the auto CSS insertion
+config.autoAddCss = false
+
 // Performance links
 const performanceLinks = [
   {
@@ -57,34 +77,49 @@ const performanceLinks = [
 // Contact links
 const links = [
   {
+    icon: faEnvelope,
     text: "Email",
     url: "mailto:nicholasdiesslin@gmail.com",
   },
   {
+    icon: faTiktok,
+    iconColor: "#EE1D52",
+    text: "TikTok",
+    url: "https://tiktok.com/@pizzamannickdiesslin",
+  },
+  {
+    icon: faInstagram,
+    iconColor: "#ffffff",
     text: "Instagram",
     url: "https://www.instagram.com/pizzamannickdiesslin",
   },
   {
+    icon: faTwitch,
+    iconColor: "#9146FF",
     text: "Twitch",
     url: "https://www.twitch.tv/pizzamannickdiesslin",
   },
   {
+    icon: faTwitter,
+    iconColor: "#1DA1F2",
     text: "Twitter",
     url: "https://twitter.com/pizzamannick",
   },
   {
-    text: "Tik Tok",
-    url: "https://tiktok.com/@pizzamannickdiesslin",
-  },
-  {
+    icon: faYoutube,
+    iconColor: "#FF0000",
     text: "YouTube",
     url: "https://www.youtube.com/channel/UCMbhbCwfTYmdqGxWt7XnUNA"
   },
   {
+    icon: faSoundcloud,
+    iconColor: "#ff7700",
     text: "SoundCloud",
     url: "https://soundcloud.com/pizzamannick"
   },
   {
+    icon: faComputer,
+    iconColor: "#ffffff",
     text: "Professional website",
     url: "https://ndiesslin.com",
   },
@@ -171,13 +206,14 @@ const IndexPage = () => {
         <p>
           Reach out with inquiries on saving the world together:
         </p>
-        <ul>
+        <ul class="ul--contact">
           {links.map(link => (
             <li>
               <span>
                 <a
                   href={`${link.url}`}
                 >
+                  <FontAwesomeIcon icon={link.icon} style={{ color: link.iconColor }} />
                   {link.text}
                 </a>
               </span>
@@ -195,7 +231,7 @@ const IndexPage = () => {
         <img src={PizzaManLogo} alt="Pizza Man Logo" class="logo margin-bottom-20" />
       </section>
       <footer>
-        1991 test
+        1991
       </footer>
       <marquee class="top-marquee">Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man... </marquee>
       <marquee class="bottom-marquee">Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man... </marquee>
