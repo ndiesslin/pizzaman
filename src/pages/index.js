@@ -30,7 +30,7 @@ config.autoAddCss = false
 const performanceLinks = [
   {
     text: "America's Got Talent",
-    url: "https://www.youtube.com/watch?v=a7fDGbPs0c4"
+    url: "https://drive.google.com/file/d/1HDhilutsT944DdP8yeg82l2QHDppOJtW/view?usp=sharing"
   },
   {
     text: "The Austin Show - Part 1 Golden Buzzer",
