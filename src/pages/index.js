@@ -46,7 +46,7 @@ const performanceLinks = [
   },
   {
     text: "CBS Weekend News",
-    url: "https://vimeo.com/506949177#t=18m25s",
+    url: "https://youtu.be/u3cAfkrkKh8?t=1106",
   },
   {
     text: "Profoundly Pointless - Podcast",
