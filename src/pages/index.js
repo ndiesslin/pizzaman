@@ -49,6 +49,10 @@ const performanceLinks = [
     url: "https://youtu.be/u3cAfkrkKh8?t=1106",
   },
   {
+    text: "SCREENSHOT Media",
+    url: "https://screenshot-media.com/culture/influencers/nick-diesslin-pizza-acrobat/"
+  },
+  {
     text: "Profoundly Pointless - Podcast",
     url: "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMzA3OTMxNC9lcGlzb2Rlcy9mZWVk/episode/aHR0cHM6Ly9hcGkuc3ByZWFrZXIuY29tL2VwaXNvZGUvNDk0MTkxMjg?sa=X&ved=0CAUQkfYCahcKEwjQjY6nqZH3AhUAAAAAHQAAAAAQAQ"
   },
