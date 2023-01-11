@@ -20,7 +20,7 @@ import {
   faTwitter,
   faYoutube,
   faSoundcloud,
-  faGif,
+  faImage,
   faSnapchat
 } from "@fortawesome/free-brands-svg-icons"
 
@@ -128,7 +128,7 @@ const links = [
     url: "https://snapchat.com/add/pizzamannickd"
   },
   {
-    icon: faGif,
+    icon: faImage,
     iconColor: "#00ff99",
     text: "GIPHY",
     url: "https://giphy.com/channel/pizzamannick"
