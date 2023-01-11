@@ -20,7 +20,8 @@ import {
   faTwitter,
   faYoutube,
   faSoundcloud,
-  faGif
+  faGif,
+  faSnapchat
 } from "@fortawesome/free-brands-svg-icons"
 
 import { config } from '@fortawesome/fontawesome-svg-core'
@@ -119,6 +120,12 @@ const links = [
     iconColor: "#FF0000",
     text: "YouTube",
     url: "https://www.youtube.com/channel/UCMbhbCwfTYmdqGxWt7XnUNA"
+  },
+  {
+    icon: faSnapchat,
+    iconColor: "#fffc00",
+    text: "Snapchat",
+    url: "https://snapchat.com/add/pizzamannickd"
   },
   {
     icon: faGif,
