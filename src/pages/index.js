@@ -10,7 +10,8 @@ import PizzaManLogo from "../images/Pizza-Man-Logo.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faEnvelope,
-  faComputer
+  faComputer,
+  faImage
 } from "@fortawesome/free-solid-svg-icons"
 
 import {
@@ -20,7 +21,6 @@ import {
   faTwitter,
   faYoutube,
   faSoundcloud,
-  faImage,
   faSnapchat
 } from "@fortawesome/free-brands-svg-icons"
 
