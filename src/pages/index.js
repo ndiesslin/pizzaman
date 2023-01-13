@@ -92,6 +92,18 @@ const links = [
     url: "mailto:nicholasdiesslin@gmail.com",
   },
   {
+    icon: faSnapchat,
+    iconColor: "#fffc00",
+    text: "Snapchat",
+    url: "https://snapchat.com/add/pizzamannickd"
+  },
+  {
+    icon: faYoutube,
+    iconColor: "#FF0000",
+    text: "YouTube",
+    url: "https://www.youtube.com/channel/UCMbhbCwfTYmdqGxWt7XnUNA"
+  },
+  {
     icon: faTiktok,
     iconColor: "#EE1D52",
     text: "TikTok",
@@ -114,18 +126,6 @@ const links = [
     iconColor: "#1DA1F2",
     text: "Twitter",
     url: "https://twitter.com/pizzamannick",
-  },
-  {
-    icon: faYoutube,
-    iconColor: "#FF0000",
-    text: "YouTube",
-    url: "https://www.youtube.com/channel/UCMbhbCwfTYmdqGxWt7XnUNA"
-  },
-  {
-    icon: faSnapchat,
-    iconColor: "#fffc00",
-    text: "Snapchat",
-    url: "https://snapchat.com/add/pizzamannickd"
   },
   {
     icon: faImage,
