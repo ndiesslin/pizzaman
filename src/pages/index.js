@@ -196,7 +196,9 @@ const IndexPage = () => {
           Hello, my name is <strong>Pizza Man Nick Diesslin</strong>
         </h1>
         <h2>
-          I'm Nick and I'm from the year 1991. <strong>Pizza Man</strong> brought me to the future in order to save the world but time travel fused us together and we became: <strong>Pizza Man Nick Diesslin!</strong>
+          <a href="https://ko-fi.com/pizzaman" target="_blank">
+            I'm Nick and I'm from the year 1991. <strong>Pizza Man</strong> brought me to the future in order to save the world but time travel fused us together and we became: <strong>Pizza Man Nick Diesslin!</strong>
+          </a>
         </h2>
       </section>
       <section>
