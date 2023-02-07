@@ -68,7 +68,8 @@ const performanceLinks = [
   },
   {
     text: "Twin Cities Live",
-    url: "https://www.twincitieslive.com/food/22265/pizza-dough-throwing/",
+    // url: "https://www.twincitieslive.com/food/22265/pizza-dough-throwing/",
+    url: "https://web.archive.org/web/20210113160914/https://www.twincitieslive.com/food/22265/pizza-dough-throwing/",
   },
   {
     text: "The Star Tribune",
