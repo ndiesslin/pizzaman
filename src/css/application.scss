@@ -7,6 +7,11 @@ $bodyFont: 'Courier New', monospace;
   box-sizing: border-box;
 }
 
+// Cursor
+* {
+  cursor: url(img/slice.png), url(img/slice.png), pointer;
+}
+
 html,
 body {
   background: blue;
