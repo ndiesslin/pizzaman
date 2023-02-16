@@ -206,7 +206,7 @@ const IndexPage = () => {
         <p>
           <a href="https://ko-fi.com/pizzaman" target="_blank" class="button button--green">🙏 Donate</a>
           <a href="https://www.redbubble.com/i/t-shirt/Pizza-Man-Nick-Diesslin-Pizza-Slice-by-PizzaManNick/88963887.IJ6L0" target="_blank" class="button">👕 Buy a Pizza Man shirt</a>
-          //<a href="https://divoominternational.com/PizzaMan" target="_blank" class="button">📺 Buy a pizza pixel screen</a>
+          {/* <a href="https://divoominternational.com/PizzaMan" target="_blank" class="button">📺 Buy a pizza pixel screen</a> */}
         </p>
       </section>
       <section>
