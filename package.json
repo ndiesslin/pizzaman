@@ -19,6 +19,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "firebase": "^8.2.3",
     "gatsby": "^5.12.5",
     "gatsby-plugin-clarity": "^1.0.1",
     "gatsby-plugin-firebase": "^0.2.0-beta.4",
