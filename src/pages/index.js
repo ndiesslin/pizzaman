@@ -191,22 +191,22 @@ const IndexPage = () => {
         <html lang="en" />
         <title>Pizza Man Nick Diesslin</title>
       </Helmet>
-      <img src={PizzaMan} alt="Pizza Man, rolling pizza down arm" class="hero" />
+      <img src={PizzaMan} alt="Pizza Man, rolling pizza down arm" className="hero" />
       <section>
         <h1>
           Hello, my name is <strong>Pizza Man Nick Diesslin</strong>
         </h1>
         <h2>
-          <a href="https://www.youtube.com/@PizzaManNick?sub_confirmation=1" target="_blank">
+          <a href="https://www.youtube.com/@PizzaManNick?sub_confirmation=1" target="_blank" rel="noreferrer">
             I'm Nick and I'm from the year 1991. <strong>Pizza Man</strong> brought me to the future in order to save the world but time travel fused us together and we became: <strong>Pizza Man Nick Diesslin!</strong>
           </a>
         </h2>
       </section>
       <section>
         <p>
-          <a href="https://ko-fi.com/pizzaman" target="_blank" class="button button--green">🙏 Donate</a>
-          <a href="https://www.redbubble.com/i/t-shirt/Pizza-Man-Nick-Diesslin-Pizza-Slice-by-PizzaManNick/88963887.IJ6L0" target="_blank" class="button">👕 Buy a Pizza Man shirt</a>
-          {/* <a href="https://divoominternational.com/PizzaMan" target="_blank" class="button">📺 Buy a pizza pixel screen</a> */}
+          <a href="https://ko-fi.com/pizzaman" target="_blank" rel="noreferrer" className="button button--green">🙏 Donate</a>
+          <a href="https://www.redbubble.com/i/t-shirt/Pizza-Man-Nick-Diesslin-Pizza-Slice-by-PizzaManNick/88963887.IJ6L0" target="_blank" rel="noreferrer" className="button">👕 Buy a Pizza Man shirt</a>
+          {/* <a href="https://divoominternational.com/PizzaMan" target="_blank" rel="noreferrer" className="button">📺 Buy a pizza pixel screen</a> */}
         </p>
       </section>
       <section>
@@ -214,12 +214,13 @@ const IndexPage = () => {
           Places where you can catch me:
         </p>
         <ul>
-          {performanceLinks.map(link => (
-            <li>
+          {performanceLinks.map((link, index) => (
+            <li key={index}>
               <span>
                 <a
                   href={`${link.url}`}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {link.text}
                 </a>
@@ -232,9 +233,9 @@ const IndexPage = () => {
         <p>
           Reach out with inquiries on saving the world together:
         </p>
-        <ul class="ul--contact">
-          {links.map(link => (
-            <li>
+        <ul className="ul--contact">
+          {links.map((link, index) => (
+            <li key={index}>
               <span>
                 <a
                   href={`${link.url}`}
@@ -254,13 +255,13 @@ const IndexPage = () => {
         <p>
           I like pizza ... a lot
         </p>
-        <img src={PizzaManLogo} alt="Pizza Man Logo" class="logo margin-bottom-20" />
+        <img src={PizzaManLogo} alt="Pizza Man Logo" className="logo margin-bottom-20" />
       </section>
       <footer>
         1991
       </footer>
-      <marquee class="top-marquee">Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man... </marquee>
-      <marquee class="bottom-marquee">Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man... </marquee>
+      <marquee className="top-marquee">Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man... </marquee>
+      <marquee className="bottom-marquee">Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man ... Pizza Man... </marquee>
     </main>
   )
 }
