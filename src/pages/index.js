@@ -35,6 +35,10 @@ const performanceLinks = [
     url: "https://drive.google.com/file/d/1HDhilutsT944DdP8yeg82l2QHDppOJtW/view?usp=sharing"
   },
   {
+    text: "America's Funniest People",
+    url: "https://drive.google.com/file/d/1JX85XmuRmwtVnpHr-U8Tf5e53J_WYwXl/view?usp=sharing"
+  },
+  {
     text: "The Austin Show - Part 1 Golden Buzzer",
     url: "https://youtu.be/qfZK5BrpjxI?t=5876",
   },
