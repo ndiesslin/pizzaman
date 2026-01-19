@@ -55,6 +55,10 @@ const performanceLinks = [
     url: "https://youtu.be/u3cAfkrkKh8?t=1106",
   },
   {
+    text: "Slovakia's Got Talent (Česko Slovensko má talent)",
+    url: "https://drive.google.com/file/d/1hNbMCCUybPI1AzrfsQDY6laH1XLRD3d1/view?usp=sharing"
+  },
+  {
     text: "SCREENSHOT Media",
     url: "https://screenshot-media.com/culture/influencers/nick-diesslin-pizza-acrobat/"
   },
